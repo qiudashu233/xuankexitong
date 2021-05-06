@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.xuankexitong.ui.shouye"
+        android:label="首页"
+        tools:layout="@layout/fra_shouye" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.xuankexitong.ui.guanzhu"
+        android:label="关注"
+        tools:layout="@layout/fra_guanzhu" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.xuankexitong.ui.wode"
+        android:label="我的"
+        tools:layout="@layout/fra_wode" />
+</navigation>
